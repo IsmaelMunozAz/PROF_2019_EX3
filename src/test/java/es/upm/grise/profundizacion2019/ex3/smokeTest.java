@@ -18,4 +18,13 @@ public class smokeTest {
 		long SECONDS = 60;
 		my.nextTime(SECONDS);
 	}
+	
+	//Creo el primer test.
+	@Test
+	public void testFechaActual() {
+		long SECONDS = 0;
+		my.nextTime(SECONDS);
+	}
+	
+
 }
