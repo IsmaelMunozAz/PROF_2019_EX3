@@ -26,5 +26,11 @@ public class smokeTest {
 		my.nextTime(SECONDS);
 	}
 	
+	@Test
+	public void testFecha120seg() {
+		long SECONDS = 120;
+		my.nextTime(SECONDS);
+	}
+	
 
 }
